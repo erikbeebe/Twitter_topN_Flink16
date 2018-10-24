@@ -60,7 +60,7 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMap
 
 public class FlinkTwitter {
     public static final Integer HASHTAG_LIMIT = 20;
-    public static final List<String> TagArray = new ArrayList<String>(Arrays.asList("NASA", "Discovery", "Interstellar"));
+    public static final List<String> TagArray = new ArrayList<String>(Arrays.asList("Oracle", "OpenWorld", "OOW"));
 
     public static void main(String[] args) throws Exception {
         //ParameterTool params = ParameterTool.fromPropertiesFile(args[0]);
