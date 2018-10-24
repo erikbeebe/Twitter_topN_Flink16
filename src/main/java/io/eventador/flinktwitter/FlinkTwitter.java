@@ -112,6 +112,7 @@ public class FlinkTwitter {
 	ds.print();
 
 	// Write to Kafka
+        /*
         ds.addSink(new FlinkKafkaProducer010<>(
                                 params.getRequired("topic"),
                                 new SerializationSchema<LinkedHashMap<String, Integer>>() {
@@ -122,6 +123,7 @@ public class FlinkTwitter {
                                 },
                                 params.getProperties())
 			).name("Kafka Sink");
+        */
 
         String app_name = String.format("Streaming Tweets");
         env.execute(app_name);
